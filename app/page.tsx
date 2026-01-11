@@ -118,8 +118,33 @@ export default function Home() {
           </h1>
           <p className="text-zinc-600 dark:text-zinc-400">
             画像をアップロードして、4枚の画像に分割します。<br/>
-            「水平分割（縦長タップ推奨）」と「十字分割（4枚画像ネタ）」に対応。
+            「水平分割（縦長タップ推奨）」と「十字分割（4枚画像ネタ）」に対応。<br/>
+            （先に画像をアップロードしてから分割する方法を選んでください）
           </p>
+        </div>
+
+        {/* 使い方セクション */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left max-w-4xl mx-auto">
+          <div className="bg-blue-50 dark:bg-blue-900/20 p-6 rounded-xl border border-blue-100 dark:border-blue-800">
+            <h3 className="text-blue-800 dark:text-blue-300 font-bold mb-2 flex items-center">
+              <span className="bg-blue-500 text-white rounded-full w-6 h-6 inline-flex items-center justify-center mr-2 text-sm">1</span>
+              水平分割の使い方
+            </h3>
+            <p className="text-sm text-blue-700 dark:text-blue-400 leading-relaxed">
+              縦長の画像（1600x900など）を投稿し、タップして全体を見せる手法に最適です。
+              画像をアップロード後、4枚の画像を上から順に保存し、Xでそのままの順番で投稿してください。
+            </p>
+          </div>
+          <div className="bg-emerald-50 dark:bg-emerald-900/20 p-6 rounded-xl border border-emerald-100 dark:border-emerald-800">
+            <h3 className="text-emerald-800 dark:text-emerald-300 font-bold mb-2 flex items-center">
+              <span className="bg-emerald-500 text-white rounded-full w-6 h-6 inline-flex items-center justify-center mr-2 text-sm">2</span>
+              十字分割の使い方
+            </h3>
+            <p className="text-sm text-emerald-700 dark:text-emerald-400 leading-relaxed">
+              1枚の大きな画像を4枚のパネル（田の字）として見せる手法に最適です。
+              「左上・右上・左下・右下」の順に保存し、Xの投稿画面でその順番通りに選択して投稿してください。
+            </p>
+          </div>
         </div>
 
         <div className="bg-white dark:bg-zinc-800 p-8 rounded-xl shadow-sm border border-zinc-200 dark:border-zinc-700">
