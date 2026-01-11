@@ -78,7 +78,7 @@ export default function Home() {
       <main className="max-w-4xl mx-auto space-y-8">
         <div className="text-center space-y-4">
           <h1 className="text-3xl font-bold text-zinc-900 dark:text-zinc-100">
-           画面タップで4分割 画像分割ツール
+           画面タップで縦長画像 画像分割ツール
           </h1>
           <p className="text-zinc-600 dark:text-zinc-400">
             画像をアップロードすると、高さを4等分して分割します。
