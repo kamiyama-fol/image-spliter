@@ -27,9 +27,9 @@ export const metadata: Metadata = {
     title: "X(Twitter)用 縦長画像4分割ツール",
     description: "縦長の画像をサクッと4分割！Xの投稿ネタ作りに最適です。",
   },
-  verification: {
-    google: "",
-  }
+  other: {
+    "google-adsense-account": "ca-pub-1542436681572530",
+  },
 };
 
 export default function RootLayout({
